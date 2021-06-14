@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="degrees">
+        <item>软181</item>
+        <item>软182</item>
+        <item>软183</item>
+        <item>软184</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        >
+<!--        <Button-->
+<!--            android:id="@+id/bt_send"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="get请求"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/bt_postsend"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="post请求" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/bt_sendfile"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="发送文件"-->
+<!--            />-->
+
+        <Button
+            android:background="@drawable/shape_big_login_btn"
+            android:id="@+id/bt_downfile"
+            android:layout_marginBottom="300dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:textColor="@color/white"
+            android:text="下载文件"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

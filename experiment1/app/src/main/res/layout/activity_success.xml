@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccessActivity"
+    android:background="@drawable/shape_big_login_btn">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"
+        android:text="用户信息"/>
+    <TextView
+        android:id="@+id/msg"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:background="@drawable/shape_login_form"/>
+
+</LinearLayout>
